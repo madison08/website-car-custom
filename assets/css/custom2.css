@@ -1,0 +1,68 @@
+
+
+.z-ind{
+    position: relative;
+    z-index: 999;
+}
+
+.how-use{
+    padding-top: 150px!important;
+}
+ul.status-element{
+    padding-left: 0px!important;
+}
+ul.status-element li{
+    display: inline-block;
+}
+
+.status-element .status1,.status-element .status2,.status-element .status3{
+    display: inline-block;
+    margin-right: 7px;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+}
+
+.result-table td,.result-table th{
+    padding: 25px;
+}
+
+.statut-rond{
+    display: inline-block;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+}
+
+.statut-rond.rond1{
+    background-color: green;
+}
+.statut-rond.rond2{
+    background-color: orange;
+}
+.statut-rond.rond3{
+    background-color: red;
+}
+
+
+.status-element .status1{
+    background-color: green;
+}
+.status-element .status2{
+    background-color: orange;
+}
+.status-element .status3{
+    background-color: red;
+}
+
+.cadre{
+    border: 1px solid #e2e2ee;
+    background-color: #fff;
+    padding: 30px;
+}
+
+@media (min-width: 991px){
+    .hide-btn-mob{
+        display: none!important;
+    }
+}
